@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="cetBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="cetPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect x="10" y="10" width="580" height="780" rx="16" fill="url(#cetBg)" stroke="#cbd5e1" stroke-width="2"/>
+
+  <!-- Top Banner -->
+  <rect x="10" y="10" width="580" height="110" rx="16" fill="url(#cetPurple)"/>
+  
+  <text x="50" y="65" font-family="'Times New Roman', serif" font-weight="900" font-size="46" fill="#fef08a">℞</text>
+  <text x="110" y="55" font-family="Arial, sans-serif" font-weight="900" font-size="25" fill="#ffffff">CETIRIZINE HYDROCHLORIDE</text>
+  <text x="110" y="85" font-family="Arial, sans-serif" font-weight="800" font-size="22" fill="#e0e7ff">TABLETS IP 10 mg</text>
+  <text x="530" y="65" font-family="Arial, sans-serif" font-weight="800" font-size="14" fill="#ffffff" text-anchor="end">10 TABLETS</text>
+
+  <!-- Indications / Caution Box -->
+  <rect x="40" y="135" width="520" height="95" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  <text x="55" y="160" font-family="Arial, sans-serif" font-weight="700" font-size="12" fill="#0f172a">COMPOSITION &amp; USAGE:</text>
+  <text x="55" y="180" font-family="Arial, sans-serif" font-weight="500" font-size="12" fill="#334155">Each film coated tablet contains: Cetirizine Hydrochloride IP 10 mg.</text>
+  <text x="55" y="200" font-family="Arial, sans-serif" font-weight="600" font-size="11" fill="#475569">Anti-allergic medication. May cause drowsiness. Store protected from light &amp; moisture.</text>
+  <text x="55" y="218" font-family="Arial, sans-serif" font-weight="700" font-size="11" fill="#dc2626">SCHEDULE H PRESCRIPTION DRUG — CAUTION: To be sold only with registered prescription.</text>
+
+  <!-- Blister Grid Graphic -->
+  <g transform="translate(60, 245)">
+    <rect x="0" y="0" width="480" height="110" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <!-- Row 1: 5 circular blister cups -->
+    <circle cx="50" cy="32" r="22" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+    <circle cx="140" cy="32" r="22" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+    <circle cx="230" cy="32" r="22" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+    <circle cx="320" cy="32" r="22" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+    <circle cx="410" cy="32" r="22" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+    <!-- Row 2 -->
+    <circle cx="50" cy="80" r="22" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+    <circle cx="140" cy="80" r="22" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+    <circle cx="230" cy="80" r="22" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+    <circle cx="320" cy="80" r="22" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+    <circle cx="410" cy="80" r="22" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  </g>
+
+  <!-- Mandatory Statutory Declarations -->
+  <rect x="40" y="375" width="520" height="390" rx="12" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+
+  <!-- Panel Title -->
+  <rect x="40" y="375" width="520" height="34" rx="12" fill="#f8fafc"/>
+  <text x="55" y="398" font-family="Arial, sans-serif" font-weight="800" font-size="12" fill="#4338ca" letter-spacing="1">DRUGS &amp; COSMETICS ACT / LEGAL METROLOGY DECLARATIONS</text>
+
+  <!-- Drug License & Batch Details -->
+  <rect x="55" y="420" width="240" height="65" rx="8" fill="#eef2ff" stroke="#a5b4fc" stroke-width="1.5"/>
+  <text x="68" y="443" font-family="Arial, sans-serif" font-weight="800" font-size="12" fill="#3730a3">MFG. LIC. NO:</text>
+  <text x="68" y="460" font-family="Arial, sans-serif" font-weight="900" font-size="14" fill="#312e81">L/20/1908/MN</text>
+  <text x="68" y="476" font-family="Arial, sans-serif" font-weight="700" font-size="11" fill="#4338ca">BATCH NO: B.No. CT-9912</text>
+
+  <!-- Net Quantity & MRP -->
+  <rect x="310" y="420" width="235" height="65" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="325" y="443" font-family="Arial, sans-serif" font-weight="800" font-size="13" fill="#1e3a8a">NET QTY: 10 TABLETS</text>
+  <text x="325" y="465" font-family="Arial, sans-serif" font-weight="900" font-size="15" fill="#dc2626">M.R.P. ₹ 35.00</text>
+  <text x="325" y="478" font-family="Arial, sans-serif" font-weight="500" font-size="10" fill="#64748b">(₹3.50 / Tablet, incl. all taxes)</text>
+
+  <!-- Manufacturing & Expiry -->
+  <rect x="55" y="495" width="490" height="52" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="70" y="518" font-family="Arial, sans-serif" font-weight="700" font-size="12" fill="#1e293b">MFG. DATE: <tspan font-weight="900" fill="#4338ca">05/2026</tspan></text>
+  <text x="70" y="536" font-family="Arial, sans-serif" font-weight="700" font-size="12" fill="#1e293b">EXPIRY DATE: <tspan font-weight="900" fill="#059669">04/2028</tspan> (VALID • 24 MONTHS SHELF LIFE)</text>
+
+  <!-- Manufacturer Details -->
+  <text x="55" y="575" font-family="Arial, sans-serif" font-weight="800" font-size="11" fill="#0f172a">MANUFACTURED IN INDIA BY:</text>
+  <text x="55" y="593" font-family="Arial, sans-serif" font-weight="700" font-size="12" fill="#312e81">Demo Healthcare Labs Ltd.</text>
+  <text x="55" y="610" font-family="Arial, sans-serif" font-weight="500" font-size="10" fill="#334155">Solan Industrial Estate, District Solan, Himachal Pradesh - 173212, India.</text>
+  <text x="55" y="625" font-family="Arial, sans-serif" font-weight="500" font-size="10" fill="#64748b">Country of Origin: India. Domestic Commodity.</text>
+
+  <!-- Consumer Care / Drug Helpline -->
+  <rect x="55" y="640" width="490" height="42" rx="6" fill="#f1f5f9"/>
+  <text x="70" y="657" font-family="Arial, sans-serif" font-weight="700" font-size="10" fill="#1e293b">DRUG HELPLINE &amp; CUSTOMER SUPPORT:</text>
+  <text x="70" y="672" font-family="Arial, sans-serif" font-weight="600" font-size="10" fill="#4338ca">Toll Free: 1800-000-0000 • Email: care@demohealthcare.com</text>
+
+  <!-- Barcode -->
+  <g transform="translate(200, 698)">
+    <rect x="0" y="0" width="200" height="40" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <line x1="12" y1="5" x2="12" y2="35" stroke="#000" stroke-width="2"/>
+    <line x1="22" y1="5" x2="22" y2="35" stroke="#000" stroke-width="3.5"/>
+    <line x1="36" y1="5" x2="36" y2="35" stroke="#000" stroke-width="1.5"/>
+    <line x1="50" y1="5" x2="50" y2="35" stroke="#000" stroke-width="4"/>
+    <line x1="65" y1="5" x2="65" y2="35" stroke="#000" stroke-width="2"/>
+    <line x1="80" y1="5" x2="80" y2="35" stroke="#000" stroke-width="3"/>
+    <line x1="95" y1="5" x2="95" y2="35" stroke="#000" stroke-width="1.5"/>
+    <line x1="110" y1="5" x2="110" y2="35" stroke="#000" stroke-width="4"/>
+    <line x1="125" y1="5" x2="125" y2="35" stroke="#000" stroke-width="2"/>
+    <line x1="140" y1="5" x2="140" y2="35" stroke="#000" stroke-width="3"/>
+    <line x1="155" y1="5" x2="155" y2="35" stroke="#000" stroke-width="1.5"/>
+    <line x1="170" y1="5" x2="170" y2="35" stroke="#000" stroke-width="3"/>
+    <line x1="185" y1="5" x2="185" y2="35" stroke="#000" stroke-width="2"/>
+    <text x="100" y="55" font-family="Courier, monospace" font-size="11" fill="#334155" text-anchor="middle">8 904022 099128</text>
+  </g>
+</svg>

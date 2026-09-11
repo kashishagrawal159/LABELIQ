@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <!-- Background Milk Carton -->
+  <defs>
+    <linearGradient id="milkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f0f9ff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="amulRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="amulBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Carton Container -->
+  <rect x="10" y="10" width="580" height="780" rx="16" fill="url(#milkBg)" stroke="#cbd5e1" stroke-width="2"/>
+
+  <!-- Top Decorative Header -->
+  <path d="M 10 10 L 590 10 L 590 110 Q 300 140 10 110 Z" fill="url(#amulRed)"/>
+  
+  <!-- Amul Logo Typography -->
+  <text x="300" y="65" font-family="Arial, sans-serif" font-weight="900" font-size="52" fill="#ffffff" text-anchor="middle" letter-spacing="2">Amul</text>
+  <text x="300" y="95" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="#fef08a" text-anchor="middle" letter-spacing="4">The Taste of India</text>
+
+  <!-- Product Name & Category -->
+  <rect x="60" y="145" width="480" height="70" rx="12" fill="url(#amulBlue)"/>
+  <text x="300" y="180" font-family="Arial, sans-serif" font-weight="800" font-size="28" fill="#ffffff" text-anchor="middle">TAAZA</text>
+  <text x="300" y="202" font-family="Arial, sans-serif" font-weight="600" font-size="14" fill="#e0f2fe" text-anchor="middle">HOMOGENISED TONED MILK • UHT TREATED</text>
+
+  <!-- Milk Splash Graphic Illustration -->
+  <g transform="translate(180, 235)">
+    <circle cx="120" cy="80" r="65" fill="#bae6fd" opacity="0.4"/>
+    <path d="M 70 85 Q 120 15 170 85 Q 210 135 120 145 Q 30 135 70 85 Z" fill="#ffffff" stroke="#38bdf8" stroke-width="2"/>
+    <text x="120" y="90" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#0369a1" text-anchor="middle">100% PURE</text>
+    <text x="120" y="108" font-family="Arial, sans-serif" font-weight="600" font-size="12" fill="#0284c7" text-anchor="middle">NO PRESERVATIVES</text>
+  </g>
+
+  <!-- Mandatory Declarations Box (Legal Metrology & FSSAI Standards) -->
+  <rect x="40" y="400" width="520" height="360" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Section Title -->
+  <rect x="40" y="400" width="520" height="32" rx="10" fill="#f1f5f9"/>
+  <text x="55" y="422" font-family="Arial, sans-serif" font-weight="800" font-size="13" fill="#334155" letter-spacing="1">STATUTORY DECLARATIONS (LEGAL METROLOGY &amp; FSSAI)</text>
+
+  <!-- FSSAI Logo / Badge Block -->
+  <rect x="55" y="445" width="220" height="55" rx="6" fill="#f8fafc" stroke="#22c55e" stroke-width="1.5"/>
+  <circle cx="78" cy="472" r="14" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <circle cx="78" cy="472" r="7" fill="#16a34a"/>
+  <text x="100" y="466" font-family="Arial, sans-serif" font-weight="900" font-size="16" fill="#15803d">fssai</text>
+  <text x="100" y="484" font-family="Arial, sans-serif" font-weight="700" font-size="10" fill="#166534">Lic. No. 10014021001010</text>
+
+  <!-- Net Quantity & MRP Block -->
+  <rect x="295" y="445" width="250" height="55" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="310" y="468" font-family="Arial, sans-serif" font-weight="800" font-size="16" fill="#1e3a8a">NET QTY: 1 L (1000 mL)</text>
+  <text x="310" y="488" font-family="Arial, sans-serif" font-weight="800" font-size="14" fill="#dc2626">MRP: ₹ 68.00 <tspan font-weight="500" font-size="10" fill="#475569">(Incl. of all taxes)</tspan></text>
+
+  <!-- Manufacturing & Expiry Dates -->
+  <rect x="55" y="515" width="490" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="70" y="536" font-family="Arial, sans-serif" font-weight="700" font-size="12" fill="#1e293b">DATE OF MANUFACTURE (MFD): <tspan font-weight="900" fill="#0284c7">10/09/2026</tspan></text>
+  <text x="70" y="554" font-family="Arial, sans-serif" font-weight="700" font-size="12" fill="#1e293b">USE BY / EXPIRY DATE: <tspan font-weight="900" fill="#059669">17/09/2026</tspan> (7 DAYS SHELF LIFE)</text>
+
+  <!-- Manufacturer Details -->
+  <text x="55" y="585" font-family="Arial, sans-serif" font-weight="800" font-size="11" fill="#0f172a">MARKETED &amp; PACKAGED BY:</text>
+  <text x="55" y="602" font-family="Arial, sans-serif" font-weight="600" font-size="11" fill="#334155">Gujarat Cooperative Milk Marketing Federation Ltd. (GCMMF)</text>
+  <text x="55" y="618" font-family="Arial, sans-serif" font-weight="500" font-size="10" fill="#64748b">Amul Dairy Road, Anand - 388001, Gujarat, India. Product of India.</text>
+
+  <!-- Consumer Care Block -->
+  <rect x="55" y="635" width="490" height="42" rx="6" fill="#f1f5f9"/>
+  <text x="70" y="652" font-family="Arial, sans-serif" font-weight="700" font-size="10" fill="#1e293b">FOR CONSUMER FEEDBACK / COMPLAINTS:</text>
+  <text x="70" y="668" font-family="Arial, sans-serif" font-weight="600" font-size="10" fill="#2563eb">Call: 1800-258-3333 (Toll Free) • Email: customercare@amul.coop</text>
+
+  <!-- Barcode Simulation -->
+  <g transform="translate(190, 690)">
+    <rect x="0" y="0" width="220" height="40" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <!-- barcode lines -->
+    <line x1="15" y1="5" x2="15" y2="35" stroke="#000" stroke-width="3"/>
+    <line x1="22" y1="5" x2="22" y2="35" stroke="#000" stroke-width="1.5"/>
+    <line x1="28" y1="5" x2="28" y2="35" stroke="#000" stroke-width="4"/>
+    <line x1="38" y1="5" x2="38" y2="35" stroke="#000" stroke-width="2"/>
+    <line x1="45" y1="5" x2="45" y2="35" stroke="#000" stroke-width="3"/>
+    <line x1="55" y1="5" x2="55" y2="35" stroke="#000" stroke-width="1"/>
+    <line x1="62" y1="5" x2="62" y2="35" stroke="#000" stroke-width="4"/>
+    <line x1="72" y1="5" x2="72" y2="35" stroke="#000" stroke-width="2"/>
+    <line x1="82" y1="5" x2="82" y2="35" stroke="#000" stroke-width="3"/>
+    <line x1="92" y1="5" x2="92" y2="35" stroke="#000" stroke-width="1.5"/>
+    <line x1="102" y1="5" x2="102" y2="35" stroke="#000" stroke-width="4"/>
+    <line x1="114" y1="5" x2="114" y2="35" stroke="#000" stroke-width="2"/>
+    <line x1="125" y1="5" x2="125" y2="35" stroke="#000" stroke-width="3"/>
+    <line x1="135" y1="5" x2="135" y2="35" stroke="#000" stroke-width="1"/>
+    <line x1="145" y1="5" x2="145" y2="35" stroke="#000" stroke-width="4"/>
+    <line x1="158" y1="5" x2="158" y2="35" stroke="#000" stroke-width="2"/>
+    <line x1="170" y1="5" x2="170" y2="35" stroke="#000" stroke-width="3"/>
+    <line x1="180" y1="5" x2="180" y2="35" stroke="#000" stroke-width="1.5"/>
+    <line x1="192" y1="5" x2="192" y2="35" stroke="#000" stroke-width="3"/>
+    <line x1="205" y1="5" x2="205" y2="35" stroke="#000" stroke-width="2"/>
+    <text x="110" y="55" font-family="Courier, monospace" font-size="11" fill="#334155" text-anchor="middle">8 901262 010052</text>
+  </g>
+
+  <!-- Green Vegetarian Dot -->
+  <rect x="520" y="695" width="30" height="30" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <circle cx="535" cy="710" r="7" fill="#16a34a"/>
+</svg>
