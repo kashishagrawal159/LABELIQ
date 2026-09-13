@@ -59,8 +59,8 @@ Upload packaging artwork before printing to identify and correct potential compl
 
 ## 🛠️ Technology Stack
 
--Frontend: React.js, Vite, Tailwind CSS
--Backend: Python 3.13, FastAPI
--Intelligence & Processing: OpenCV, BeautifulSoup, Requests
--Database & Storage: SQLite, SQLAlchemy, Local File Storage
+- Frontend: React.js, Vite, Tailwind CSS
+- Backend: Python 3.13, FastAPI
+- Intelligence & Processing: OpenCV, BeautifulSoup, Requests
+- Database & Storage: SQLite, SQLAlchemy, Local File Storage
 
